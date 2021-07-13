@@ -9,6 +9,7 @@ variable "vpc_config" {
     instance_tenancy = "default"
     tags = {
       "Name" = "my-app-ugam"
+      "Location" = "Banglore"
     }
   }
 }
