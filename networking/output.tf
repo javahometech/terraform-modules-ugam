@@ -13,3 +13,7 @@ output "vpc_id" {
 output "azs" {
   value = local.az_names
 }
+
+output "pub_subnets" {
+  value = aws_subnet.public
+}
