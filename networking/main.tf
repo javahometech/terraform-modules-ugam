@@ -21,7 +21,7 @@ resource "aws_subnet" "public" {
 resource "aws_internet_gateway" "gw" {
   vpc_id = aws_vpc.main.id
   tags = {
-    Name = "${var.app_name}-igw"
+    Name = "${var.app_name}-igw-demo"
   }
 }
 # create route table for public subnets
